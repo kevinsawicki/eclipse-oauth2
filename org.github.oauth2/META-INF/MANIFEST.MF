@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: OAuth2 Plug-in
+Bundle-SymbolicName: org.github.oauth2;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: org.apache.http;version="4.1.0",
+ org.apache.http.client.entity;version="4.1.0",
+ org.apache.http.client.methods;version="4.1.0",
+ org.apache.http.client.utils;version="4.1.0",
+ org.apache.http.conn;version="4.1.0",
+ org.apache.http.conn.routing;version="4.1.0",
+ org.apache.http.entity;version="4.1.0",
+ org.apache.http.impl.client;version="4.1.0",
+ org.apache.http.impl.conn;version="4.1.0",
+ org.apache.http.message;version="4.1.0",
+ org.apache.http.protocol;version="4.1.0",
+ org.apache.http.util;version="4.1.0"
+Bundle-Activator: org.github.oauth2.OAuth2Plugin
+Export-Package: org.github.oauth2
